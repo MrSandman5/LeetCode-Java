@@ -30,7 +30,7 @@ public class BinaryTreePostorderTraversal {
         }
     }
 
-    public List<Integer> postorderTraversal(TreeNode root) {
+    private List<Integer> postorderTraversal(TreeNode root) {
         ArrayList<Integer> list = new ArrayList<>();
         Deque<TreeNode> S = new ArrayDeque<>();
 

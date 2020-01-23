@@ -28,7 +28,7 @@ public class BinaryTreeInorderTraversal {
         }
     }
 
-    public List<Integer> inorderTraversal(TreeNode root) {
+    private List<Integer> inorderTraversal(TreeNode root) {
         ArrayList<Integer> nodes = new ArrayList<>();
         TreeNode current, previous;
         current = root;
