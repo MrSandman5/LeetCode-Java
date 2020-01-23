@@ -1,3 +1,5 @@
+package strings;
+
 import java.io.*;
 import java.util.StringTokenizer;
 
@@ -47,7 +49,8 @@ public class ZigZagConversion {
                     result.append(s.charAt(j + cycleLen - i));
             }
         }
-        /*while (tempRows > 0){
+        /*int tempRows = numRows;
+        while (tempRows > 0){
             if (tempRows == numRows || tempRows == 1){
                 int diff = 2 * numRows - 2;
                 int c = tempRows == numRows ? 0 : numRows - 1;
